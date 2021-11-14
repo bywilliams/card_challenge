@@ -1,0 +1,140 @@
+body{
+    padding: 0;
+    background-color: #dfe7ff;
+    width: 1440px;
+    text-align: center;
+    font-family:'Red Hat Display';
+    margin: auto;
+}
+
+.container{
+    margin: 10px auto;
+    width: 40%;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    border-radius: 30px 30px 0 0;
+}
+
+h1{   
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+p{
+    color:  hsl(224, 23%, 55%);
+    letter-spacing: 1px;
+    font-size: 20px;
+   
+}
+
+.plan{
+    margin: 10px auto;
+    width: 400px;
+    background-color: hsl(240, 5%, 96%);
+    border-radius: 10px;
+    height: 90px;
+    text-align: -webkit-center;;
+    
+}
+
+.plan_info{
+    padding-top: 5px;
+    line-height: 1.5;
+}
+
+.change_link {
+    padding-top: 23px;
+}
+
+.change_link a{
+    color:  hsl(245, 75%, 52%);
+    font-weight: bolder;
+}
+
+.container_plan{
+    padding-top: 12px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.music_img{
+    width: 60px;
+    height: 60px;
+}
+
+#change{
+    justify-content: end;
+}
+
+#plan_text{
+    color: hsl(223, 47%, 23%);
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+#plan_price{
+    color: hsl(224, 23%, 55%)
+}
+
+.btn_proceed{
+    position: relative;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px 5px 0 0;
+}
+
+.btn_cancel{
+    position: relative;
+}
+
+ .myButton {
+     color: #fff;
+     font-size: 20px;
+     padding: 10px;
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 29px 0 25px 0;
+    cursor: pointer;
+
+ }
+
+ .myButton:hover {
+   
+    background: #4C86E5;
+    background-image: -webkit-linear-gradient(top, #4C86E5, #103968);
+    background-image: -moz-linear-gradient(top, #4C86E5, #103968);
+    background-image: -ms-linear-gradient(top, #4C86E5, #103968);
+    background-image: -o-linear-gradient(top, #4C86E5, #103968);
+    background-image: -webkit-gradient(to bottom, #4C86E5, #103968);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+ }
+
+        
+
+ .cancel{
+     padding-bottom: 45px;
+ }
+
+ .cancel a{
+     text-decoration: none;
+     color: hsl(224, 23%, 55%);
+     font-weight: bold;
+ }
